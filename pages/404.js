@@ -3,20 +3,6 @@ import { useEffect } from "react";
 
 
 const ErrorPage = () => {
-      const route=useRouter()
-
-    useEffect(()=>{
-
-         setTimeout(()=>{
-              //route.back()
-                route.push('/')
-               
-
-         },1000)
-
-        
-
-    },[] )
      
     return ( 
           <div className="not-found">
@@ -29,6 +15,6 @@ const ErrorPage = () => {
      );
 }
  
-export default errorPage;
+export default ErrorPage;
 
        
