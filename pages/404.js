@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 
-const errorPage = () => {
+const ErrorPage = () => {
       const route=useRouter()
 
     useEffect(()=>{
